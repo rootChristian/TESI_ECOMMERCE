@@ -1,7 +1,5 @@
 /***********************************************************************
 ************ Authors:    Christian KEMGANG NGUESSOP ********************
-************                        &                 ******************
-************             Linda Rodiere TCHOUFFONG METOU ****************
 ************ Version:    1.0.0 *****************************************
 ***********************************************************************/
 
@@ -60,10 +58,14 @@ const NavBar = () => {
                             <a class="nav-link active" aria-current="page" href="/"><FontAwesomeIcon icon={faHome} />Home</a>
                         <a class="nav-link active" aria-current="page" href="/sign-up">Registration</a>
                        
-                            <div class="navbar-nav">
-                                <a class="nav-link active" aria-current="page" href="/category">InsertCategory</a>
-                                <a class="nav-link active" aria-current="page" href="/product">InsertProduct</a>
-                            </div>
+                        <div class="navbar-nav">
+                            {uid ? (
+                            <a class="nav-link active" aria-current="page" href="/category"> {userData.role ? (<a>InsertCategory</a>) : (<a></a>)} </a>
+                            ) : (<div></div>)}
+                            {uid ? (
+                                <a class="nav-link active" aria-current="page" href="/product"> {userData.role ? (<a>InsertProduct</a>) : (<a></a>)} </a>
+                            ) : (<div></div>)}
+                        </div>
                        
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
