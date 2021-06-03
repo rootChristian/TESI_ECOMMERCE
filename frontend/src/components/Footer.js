@@ -1,9 +1,6 @@
-
 /***********************************************************************
-************ Authors:    Christian KEMGANG NGUESSOP ********************
-************                        &                 ******************
-************             Linda Rodiere TCHOUFFONG METOU ****************
-************ Version:    1.0.0 *****************************************
+************ Author:    Christian KEMGANG NGUESSOP ********************
+************ Version:    1.0.0                      ********************
 ***********************************************************************/
 
 import React from "react";
@@ -22,9 +19,9 @@ const Footer = () => {
                         <small class="d-block text-muted">&copy; 2020-2021 All rights reserved.</small>
                     </div>
                     <div class="col-6 col-md">
-                        <h5>Authors:</h5>
+                        <h5>Author:</h5>
                         <ul class="list-unstyled text-small footer">
-                        <li class="text-muted col-auto me-auto">Christian KEMGANG NGUESSOP & Linda Rodiere TCHOUFFONG METOU</li>
+                        <li class="text-muted col-auto me-auto">Christian KEMGANG NGUESSOP</li>
                         <li><a class="text-muted col-auto me-auto" href="mailto:hege@example.com"><FontAwesomeIcon icon={faEnvelope} />softwarechristian1@gmail.com</a></li>
                         </ul>
                     </div>

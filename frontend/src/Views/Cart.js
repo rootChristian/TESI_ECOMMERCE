@@ -1,9 +1,8 @@
 /***********************************************************************
-************ Authors:    Christian KEMGANG NGUESSOP ********************
-************                        &                 ******************
-************             Linda Rodiere TCHOUFFONG METOU ****************
-************ Version:    1.0.0 *****************************************
+************ Author:    Christian KEMGANG NGUESSOP ********************
+************ Version:    1.0.0                      ********************
 ***********************************************************************/
+
 import React, { useState, useContext } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom"

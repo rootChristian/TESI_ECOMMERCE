@@ -1,9 +1,8 @@
 /***********************************************************************
-************ Authors:    Christian KEMGANG NGUESSOP ********************
-************                        &                 ******************
-************             Linda Rodiere TCHOUFFONG METOU ****************
-************ Version:    1.0.0 *****************************************
+************ Author:    Christian KEMGANG NGUESSOP ********************
+************ Version:    1.0.0                      ********************
 ***********************************************************************/
+
 import React, { useState } from "react";
 import { CART_PRODUCT, GET_NUMBERS_BASKET } from "../actions/CartsActions";
 import { useSelector } from "react-redux";

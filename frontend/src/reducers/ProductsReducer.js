@@ -1,8 +1,6 @@
 /***********************************************************************
-************ Authors:    Christian KEMGANG NGUESSOP ********************
-************                        &                 ******************
-************             Linda Rodiere TCHOUFFONG METOU ****************
-************ Version:    1.0.0 *****************************************
+************ Author:    Christian KEMGANG NGUESSOP ********************
+************ Version:    1.0.0                      ********************
 ***********************************************************************/
 
 import { GET_PRODUCT, GET_PRODUCTS, POST_PRODUCTS, GET_PRODUCTS_BY_CATEGORIES } from "../actions/ProductsActions";

@@ -1,3 +1,8 @@
+/***********************************************************************
+************ Author:    Christian KEMGANG NGUESSOP ********************
+************ Version:    1.0.0                      ********************
+***********************************************************************/
+
 import React from "react";
 import { Link } from "react-router-dom"
 import { useDispatch } from "react-redux";
