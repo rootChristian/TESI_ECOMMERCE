@@ -11,6 +11,9 @@ import { UidContext } from "./components/AppContext";
 import axios from "axios";
 import { useDispatch } from "react-redux";
 import { getUser } from "./actions/UserActions";
+
+
+
 // Icons
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faUser, faEnvelope, faLock, faSearch } from '@fortawesome/free-solid-svg-icons'
@@ -41,10 +44,10 @@ function App() {
   //}, [uid]);
   }, [uid, dispatch]);
 
-  return (
-    <UidContext.Provider value={uid}>
-      <Routes />
-    </UidContext.Provider>
+    return (
+                <UidContext.Provider value={uid}>
+                    <Routes />
+                </UidContext.Provider>
   );
 };
 

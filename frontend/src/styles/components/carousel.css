@@ -1,0 +1,17 @@
+
+
+.carousel-bg {
+    height: 300px;
+    /*background-color: rgba(255,0,0,0.1);*/
+    background-color: #91addb;
+}
+
+.carousel-txt {
+    text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0,0,0,0.5), 4px 4px 5px rgba(0,0,0,0.7), 0px 0px 7px rgba(0,0,0,0.4);
+    height: 65px;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+    font-style: italic;
+    color: #090c21;
+}

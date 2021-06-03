@@ -15,9 +15,9 @@ const productRoutes = require('./routes/product_route');
 require('./config/db');
 const { checkUser, requireAuth } = require('./middleware/auth_middleware');
 const cors = require('cors');
-const { Mongoose } = require('mongoose');
+//const { Mongoose } = require('mongoose');
 const app = express();
-const path = require('path');
+//const path = require('path');
 
 const corsOptions = {
     origin: process.env.CLIENT_URL,
@@ -33,7 +33,7 @@ app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
-app.use('./uploads', express.static(path.join(__dirname,'uploads')));
+//app.use('./uploads', express.static(path.join(__dirname,'uploads')));
 
 // jwt
 app.get('*', checkUser);

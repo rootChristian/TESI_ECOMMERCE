@@ -7,6 +7,7 @@
 
 import React, { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom"
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faSignOutAlt, faSignInAlt, faEnvelope, faRegistered, faKey, faLock, faSearch, faDatabase, faSave, faHome } from '@fortawesome/free-solid-svg-icons'
@@ -39,6 +40,7 @@ const SignInForm = () => {
                 } else {
                     //return at home after login
                     window.location = "/";
+                    //<Link to="/"></Link>
                 }
             })
             .catch((err) => {
@@ -80,7 +82,7 @@ const SignInForm = () => {
                             <div className="container">
                                 <div class="row justify-content-evenly">
                                     <div class="col-auto me-auto"><button type="submit" class="btn btn-primary">Sign in</button></div>
-                                    <div class="col-auto me-auto"><a href="/sign-up"><button type="button" class="btn btn-primary">Sign up</button></a></div>
+                                    <div class="col-auto me-auto"><Link to="/sign-up"><button type="button" class="btn btn-primary">Sign up</button></Link></div>
                                 </div>
                             </div>
                         </form>
