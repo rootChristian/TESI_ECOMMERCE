@@ -17,7 +17,7 @@ import { connect } from "react-redux"
 
 //Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch, faUser, faSignOutAlt, faSignInAlt, faShoppingCart, faHome, faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faUser, faSignOutAlt, faSignInAlt, faShoppingCart, faHome, faDatabase, faRegistered } from '@fortawesome/free-solid-svg-icons'
 
 const NavBar = (props) => {
     //console.log(props)
@@ -130,7 +130,8 @@ const NavBar = (props) => {
                     </Navbar.Brand>
                 ) : (<Navbar.Brand>
                             <NavDropdown title={<FontAwesomeIcon icon={faUser} color="blue" />} id="basic-nav-dropdown">
-                                <NavDropdown.Item><Link to="/sign-in"><FontAwesomeIcon icon={faSignInAlt} color="blue" />Login</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to="/sign-in"><FontAwesomeIcon icon={faSignInAlt} color="blue" />Login</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to="/sign-up"><FontAwesomeIcon icon={faRegistered} color="blue" />Registration</Link></NavDropdown.Item>
                         </NavDropdown></Navbar.Brand>
                     )}
                 <Navbar.Brand>

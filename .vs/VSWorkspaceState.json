@@ -1,16 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend",
-    "\\backend\\controllers",
-    "\\frontend",
-    "\\frontend\\src",
-    "\\frontend\\src\\components",
-    "\\frontend\\src\\components\\Log",
-    "\\frontend\\src\\components\\Routes",
-    "\\frontend\\src\\pages",
-    "\\frontend\\src\\reducers"
+    "\\backend"
   ],
-  "SelectedNode": "\\backend\\controllers\\auth_controller.js",
+  "SelectedNode": "\\backend",
   "PreviewInSolutionExplorer": false
 }
