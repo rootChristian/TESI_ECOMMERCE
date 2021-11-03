@@ -3,11 +3,6 @@
 ************ Version:    1.0.0                      ********************
 ***********************************************************************/
 
-/***********************************************************************
-************ Author:    Christian KEMGANG NGUESSOP ********************
-************ Version:    1.0.0                      ********************
-***********************************************************************/
-
 const mongoose = require('mongoose');
 require('dotenv').config({path: './config/.env'});
 
@@ -23,3 +18,6 @@ mongoose.connect(mongodbURL, { useNewUrlParser: true, useFindAndModify: false, u
         .catch((err)=>{
             console.log('Database connection is failled...\n', err);
         })
+
+
+
