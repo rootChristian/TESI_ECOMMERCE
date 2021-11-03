@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-d
 import Home from '../../Views/Home'
 import Profil from '../../Views/Profil';
 import Cart from '../../Views/Cart';
-import NavBar from '../Navbar';
+import NavBar from '../NavBar';
 import SignInForm from '../Log/SignInForm';
 import SignUpForm from '../Log/SignUpForm';
 import SingleProduct from '../../Views/SingleProduct';
@@ -42,3 +42,4 @@ const index = () => {
 };
 
 export default index;
+
