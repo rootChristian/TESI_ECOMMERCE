@@ -49,7 +49,13 @@ app.use('/api/categories', categoryRoutes);
 //router after http://localhost:port/api/product# call all router
 app.use('/api/products', productRoutes);
 
-//listen port connection
-app.listen(process.env.PORT, () => {
-    console.log(`Listening on port ${process.env.PORT}`);
-});
+//Server listen port connection
+const port = process.env.PORT; 
+
+app.listen(port, ()=>{
+    console.log('******************************************'
+    +`\n    Server is running on the port ${port}`+
+              '\n******************************************');
+})
+
+
